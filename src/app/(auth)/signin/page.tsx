@@ -64,7 +64,7 @@ export default function LoginPage() {
             placeholder="jason@CharisOne.com"
             type="email"
             required
-            className="md:py-6 rounded-md text-xl py-4 px-5 placeholder:text-sm"
+            className="py-6 rounded-md text-xl px-5 placeholder:text-sm"
           />
         </div>
 
@@ -80,7 +80,7 @@ export default function LoginPage() {
               placeholder="**** CharisOne"
               type={show ? "text" : "password"}
               required
-              className="md:py-6 py-4 rounded-md text-xl px-5 placeholder:text-sm"
+              className="py-6 rounded-md text-xl px-5 placeholder:text-sm"
             />
             <button
               type="button"
