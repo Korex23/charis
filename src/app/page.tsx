@@ -7,7 +7,7 @@ export default function Home() {
   const router = useRouter();
 
   useEffect(() => {
-    router.replace("/sign-in");
+    router.replace("/signin");
   }, [router]);
 
   return null;
