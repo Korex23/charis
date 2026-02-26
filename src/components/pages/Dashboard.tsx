@@ -26,7 +26,7 @@ const Dashboard = () => {
             </div>
 
             {/* Right: Divider + Date */}
-            <div className="flex items-center gap-3 w-full lg:w-auto">
+            <div className="flex items-center gap-3 w-full lg:w-auto lg:mr-40">
               <div className="h-px w-full lg:w-[260px] xl:w-[300px] bg-[#5D727C]" />
               <div className="shrink-0 rounded px-4 sm:px-6 lg:px-7 py-1 font-heading text-[#171717] bg-[#951E95]/10 text-sm sm:text-base">
                 DD / MM / YY

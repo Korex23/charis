@@ -88,13 +88,15 @@ export default function DashboardHeader({
   return (
     <header className="w-full">
       <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
+        {/* Title */}
         <div className="min-w-0">
           <h1 className="text-lg sm:text-xl font-semibold text-slate-700">
             {title}
           </h1>
         </div>
 
-        <div className="w-full  lg:px-2">
+        {/* Search */}
+        <div className="w-full lg:flex lg:justify-center lg:flex-1 lg:px-2">
           <div
             className={cx(
               "h-10 w-full",
